@@ -9,6 +9,7 @@ import { ServiciosComponent } from './servicios/servicios.component';
 import { NuestrosClientesComponent } from './nuestros-clientes/nuestros-clientes.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactoComponent } from './contacto/contacto.component';
     ServiciosComponent,
     NuestrosClientesComponent,
     FooterComponent,
-    ContactoComponent
+    ContactoComponent,
+    SobreNosotrosComponent
   ],
   imports: [
     BrowserModule,
